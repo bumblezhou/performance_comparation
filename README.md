@@ -12,6 +12,8 @@ g++ performance_test.cpp -std=c++11 -o performance_test
 g++ benchmark_test.cpp -std=c++11 -isystem benchmark/include -Lbenchmark/build/src -lbenchmark -lpthread -o benchmark_test
 
 ./benchmark_test --benchmark_min_time=10000x
+
+./benchmark_test
 ```
 Reference: 
 
